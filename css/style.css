@@ -1,0 +1,9 @@
+.card_place_shadow {
+    position: absolute;
+    background-image: url(../img/slot1.png);
+    background-size: 100% 100%;
+}
+.card {
+    position: absolute;
+    background-size: 100% 100%;
+}

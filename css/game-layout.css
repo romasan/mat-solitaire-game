@@ -1,0 +1,181 @@
+body {
+    background: #4C4C4C
+}
+.card_place {
+    position: absolute;
+}
+.card_place_shadow {
+    position: absolute;
+    background-image: url(../img/slot1.png);
+    background-size: 100% 100%;
+}
+.card {
+    position: absolute;
+    background-size: 100% 100%;
+}
+#info_bar {
+    margin-left: 10px;
+}
+#gameArea {
+    height: 700px
+}
+.bt-disabled {
+    color: #808080;
+}
+.yellow {
+    cursor:pointer;
+    background:#f7f791!important
+}
+.yellow:hover {
+    background:#f7f791!important
+}
+
+.gameArea, .bottomArea {
+    width: 994px;
+}
+
+.titleBand {
+    background: #004F00 !important;
+}
+
+.titleBand a{
+    background: #004F00 !important;
+}
+
+.gameArea {
+    border-color: #004F00 !important;
+    /*box-shadow: 0px 0px 25px #4C4C4C;*/
+}
+
+.controlPanel {
+    background: #F0F0F0;
+}
+
+#field {
+    background-color: #008000;
+    position: relative;
+    width: 100%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    height: 424px;
+}
+
+.informationMain img {
+    width: 100%;
+}
+
+@-moz-document url-prefix() {
+    .controlPanelLayout {
+        margin-top: -2px;
+    }
+}
+.rating_link_active {
+    text-decoration: none;
+    color: #069;
+    font-weight: 700;
+}
+
+.rating_link_unactive {
+    cursor: pointer;
+    text-decoration: none;
+    color: #069;
+    border-bottom: 1px solid #069;
+}
+
+.filterPanel {
+    height: 30px;
+}
+
+.filterPanel div {
+    height: 30px;
+    line-height: :30px;
+    padding-top: 5px;
+}
+
+.bold {
+    font-weight: bold
+}
+
+.rating-table td {
+    padding-left: 2px;
+    padding-right: 7px;
+}
+
+#tab_online_players {
+    margin-left: 20px;
+}
+
+.yellow {
+    background-color: #fcfcd8;
+}
+.yellow_shadow {
+    background-color: #ffff00;
+    opacity: .5
+}
+
+/*canvas {
+    background: #fafafa!important;
+}*/
+
+.bg-loading {
+    height: 40px;
+    background-image: url('http://logic-games.spb.ru/img/spin.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bt-recover:hover {
+    text-decoration: underline;
+}
+.bt-recover:hover td {
+    color: #006699!important;
+    cursor: pointer;
+}
+.constantWidthBtnParams {
+    min-width: 80px!important;
+}
+
+.ui-menu-item {
+    font-size: 8pt;
+}
+
+.rplayer-online, .rplayer-active {
+    background: #EFF9DB;
+}
+.player-online img {
+    cursor: pointer;
+}
+.rating-profile:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#field {
+    height: 670px
+}
+#gameArea, #field {
+    width: 994px
+}
+#map {
+    width: 995px;
+    left: 7px;
+    top: 70px;
+    position: relative;
+}
+#gameArea {
+    height: 778px
+}
+#info_bar {
+    margin-top: 50px;
+}
+
+.yellow_light {
+  box-shadow: inset 0 0 7px 4px #ffff00;
+  border-radius: 3px;
+}
+#informationMain {
+    width: 600px!important
+}
+#gameField {
+    width: 994px!important;
+}

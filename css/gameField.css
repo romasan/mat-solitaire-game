@@ -1,0 +1,109 @@
+html {
+    background-color: rgb(76, 76, 76);
+}
+
+#gameField {
+    position: relative;
+    background-color: green;
+    width: 100%;
+    height: 600px;
+    text-align: center; /*центрует пирамиду*/
+}
+
+#gameField-stack {
+    position: absolute;
+    z-index: 10; /* чтобы было над пирамидой и ловить клики */
+}
+
+#gameField-stack .open .card {
+    position: absolute!important;
+    left: 85px;
+}
+
+#gameField-free {
+    position: absolute;
+}
+
+#gameField-pyramid {
+    display: inline-block;
+    position: relative;
+    bottom: -75px;
+}
+
+.card {
+    display: inline-block;
+}
+
+.card.hidden {
+    visibility: hidden;
+}
+
+.card.possibleMove:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 0, .5);
+    display: block;
+    content: ' ';
+}
+
+.card.back.inStack {
+    position: absolute;
+}
+
+.stack_placeholder {
+    width: 71px;
+    height: 96px;
+    float: left;
+}
+
+.stack_placeholder:last-child {
+    margin-left: 10px;
+}
+
+.empty {
+    border: 1px solid black;
+}
+
+.pyramidLevel {
+    text-align: center;
+}
+
+.pyramidLevel .card:not(:first-child) {
+    margin-left: 15px;
+}
+
+.card.freeCard, .card.back {
+    /* блокирует события */
+    pointer-events: none;
+}
+
+.title {
+    position: absolute;
+    top: 25px;
+}
+
+.title.title_stack {
+    left: 32px;
+}
+
+.title.title_free {
+    right: 41px;
+}
+
+.title.title_pyramid {
+    left: 276px;
+}
+
+#cardsHint {
+    position: absolute;
+    width: 85px;
+    top: 165px;
+    left: 20px;
+}
+
+#cardsHint td{
+    text-align: left;
+}
